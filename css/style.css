@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.main{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,h3,.text{
+    text-align: center;
+}
+
+.text{
+    width: 45%;
+    margin: 0 auto;
+}
+
+.text input{
+    width: 100px;
+    height: 100px;
+    font-size: 5em;
+    text-align: center;
+    color: #ff0000;
+}
+
+input[name=answer]{
+    border: 0px;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    /* background: url(../img/key.png) center center no-repeat; */
+    /* border: 1px solid #000; */
+    /* border-radius: 5px; */
+    letter-spacing: 0.3em;
+}
+
+.submit_btnarea {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.form_btn{
+    background: #005183;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    position: relative;
+}
+ 
+.form_btn:hover{
+    border: 1px solid #005183;
+    background: #fff;
+    color: #005183;
+}
+
+button[type="submit"][disabled] {
+    background-color: #fff;
+    color: #ccc;
+    border-color: #ccc;
+    cursor: default;
+}
+     
+button[type="submit"][disabled]:hover{
+    opacity:1;
+}
+
+.submit_btn{
+    width: 40%;
+    margin: 50px auto 0;
+}
