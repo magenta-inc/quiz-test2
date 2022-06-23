@@ -1,11 +1,14 @@
 const correct='せいかい！';
 const incorrect = 'ざんねん！';
+let link = document.getElementById('link');
+let url = 'https://www.google.com/';
+link.setAttribute('href', url);
 
 window.onload = function(){
     // テキストボックスのDOMを取得
     const username = document.getElementById("answer");
     // 活性/非活性を切り替えるボタンのDOMを取得
-    const mybutton = document.getElementById("button");
+    const mybutton = document.getElementById("link");
     // 入力テキストのキーアップイベント
     username.addEventListener('keyup', function() {
       // テキストボックスに入力された値を取得
@@ -28,5 +31,10 @@ window.onload = function(){
     })
 }
 
-let element = document.getElementById('submit_btn');
-element.insertAdjacentHTML('beforeend', '<button type="submit" value="Click" class="form_btn" id="button" disabled="disabled">キャンペーンの応募はこちら</button>');
+$('a.form_btn').click(function() { 
+  if(text==='やさい') {
+    return true;
+  } else {
+    return false;
+  } 
+});
