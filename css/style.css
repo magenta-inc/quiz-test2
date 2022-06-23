@@ -41,6 +41,11 @@ input[name=answer]{
     margin: 0 auto;
 }
 
+.result{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .form_btn{
     background: #005183;
     border: 1px solid #fff;
