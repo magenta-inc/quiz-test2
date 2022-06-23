@@ -36,11 +36,17 @@ input[name=answer]{
     /* letter-spacing: 0.3em; */
 }
 
-.submit_btnarea {
-    width: 360px;
+#submit_btn {
+    width: 40%;
     margin: 0 auto;
 }
 
+#submit_btn a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
 .result{
     font-size: 2em;
     font-weight: bold;
@@ -50,7 +56,7 @@ input[name=answer]{
     background: #005183;
     border: 1px solid #fff;
     color: #fff;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
