@@ -1,0 +1,2 @@
+var correct="\u305b\u3044\u304b\u3044\uff01",incorrect="\u3056\u3093\u306d\u3093\uff01";
+window.onload=function(){var b=document.getElementById("answer"),c=document.getElementById("button");b.addEventListener("keyup",function(){var a=b.value;console.log(a);"\u3084\u3055\u3044"===a?(console.log(correct),a=document.getElementById("result"),a.innerHTML="\u305b\u3044\u304b\u3044\uff01",button.disabled=null):(console.log(incorrect),a=document.getElementById("result"),a.innerHTML="\u3056\u3093\u306d\u3093\uff01",c.disabled="disabled")})};
